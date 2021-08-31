@@ -1,0 +1,169 @@
+@media (min-width:200px) and (max-width:999px){
+    
+
+
+    /* Start Header --------------------*/
+    .header .navbar .menu-list{
+        width: 100%;
+        height:0;
+        z-index: 1000;
+        overflow: hidden;
+        overflow-y: auto;
+        transition:all .2s ease-in-out;
+    }
+    .header .navbar .menu-list ul{
+        flex-direction:column;
+        padding:0;
+    }
+    .header .navbar .menu-list > ul li a{
+        padding:10px;
+    }
+    .header .navbar .menu-list ul li .dropdown-menu{
+        position: relative;
+        padding:0 20px;
+        opacity:1;
+        visibility:visible;
+        border:none;
+    }
+    .header .navbar .bar{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header .navbar .bar i{
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+        font-size: 22px;
+        color: var(--top_bar_font_color);
+        border-radius: 5px;
+        background-color:#ddd;
+    }
+    /* End Header --------------------*/
+
+    /* Start yello Section --------------------- */
+    .section-yellow .row{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .section-yellow div.col-md-9{
+        margin-bottom:var(--margin-bottom1);
+    }
+    .section-yellow div.col-md-3{
+        width:100%;
+        display:flex;
+        justify-content:flex-end;
+    }
+    .section-yellow div.col-md-3 a{
+        padding:15px 60px;
+    }
+    /* End yello Section --------------------- */
+
+    /* Start sec-padding Section --------------------- */
+    .sec-padding .item{
+        margin-bottom:var(--margin-bottom2);
+    }
+    .sec-padding .item img{
+        width:var(--width-75);
+    }
+    /* End sec-padding Section --------------------- */
+
+
+    /* Start article section ----------------- */
+    .article .container .box{
+        margin-bottom:var(--margin-bottom3);
+    }
+    /* End article section ----------------- */
+
+    /* Start footer section ----------------- */
+    footer{
+        padding:50px;
+    }
+    /* End footer section ----------------- */
+}
+@media (max-width:350px){
+    /* Start Topbar --------------------*/
+    .topbar .topbar-left-items ul{
+        flex-direction:column !important;
+    }
+    /* End Topbar --------------------*/
+
+    /* Start article section ----------------- */
+    .article .container .box .blog-holder .image-holder img{
+        max-width:100% !important;
+    }
+    /* End article section ----------------- */
+
+
+}
+@media (min-width:400px){
+    
+    /* Start Topbar --------------------*/
+    .topbar .topbar-left-items ul{
+        flex-direction:row;
+    }
+    /* End Topbar --------------------*/
+
+    
+}
+@media (max-width:576px){
+    
+    /* Start Topbar --------------------*/
+    .topbar .topbar-left-items ul{
+        flex-direction:row;
+    }
+    /* End Topbar --------------------*/
+
+    /* Start sec-padding Section --------------------- */
+    .sec-padding .item img{
+        width:var(--width-100);
+    }
+    /* End sec-padding Section --------------------- */
+
+
+    /* Start what-talk Section --------------------- */
+    .what-talk .section-overlay .feature-box{
+        flex-direction:column;
+    }
+    .what-talk .section-overlay .iconbox-large{
+        margin-bottom:var(--margin-bottom2);
+    }
+    /* End what-talk Section --------------------- */
+
+    
+    /* Start article section ----------------- */
+    .article .container .box .blog-holder{
+        flex-direction:column;
+    }
+    .article .container .box .blog-holder .image-holder img{
+        max-width:50%;
+    }
+    /* End article section ----------------- */
+
+
+
+    /* Start demendar-section ----------------- */
+    .demendar-section p{
+        font-size:calc(var(--font-size1) + 2px);
+    }
+     /* End demendar-section ----------------- */
+}
+@media (min-width:1000px){  
+    /* Start Topbar --------------------*/
+    .topbar .topbar-left-items ul{
+        flex-direction:row;
+    }
+    /* End Topbar --------------------*/
+
+    /* Start Header --------------------*/
+    .header .navbar .bar-box{
+        display:none;
+    }
+    /* End Header --------------------*/
+
+    /* Start yello Section --------------------- */
+    .section-yellow div.col-md-3 a{
+        width:100%;
+    }
+    /* End yello Section --------------------- */
+}
+
